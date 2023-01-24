@@ -21,7 +21,7 @@ do {
 sorted = 1;
 for (i = 0; i < size - 1; i++)
 {
-if(array[i] > array[i + 1])
+if (array[i] > array[i + 1])
 {
 sorted = 0;
 tmp = array[i];
