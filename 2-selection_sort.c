@@ -15,7 +15,7 @@ size_t i, step, min_idx;
 int tmp;
 
 for (step = 0; step < size - 1; step++)
-{
+ {
 min_idx = step;
 for (i = step + 1; i < size; i++)
 {
