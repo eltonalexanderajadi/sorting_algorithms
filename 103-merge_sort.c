@@ -36,7 +36,7 @@ int i = minL, j = minR, k = minL;
 
 while (i <= maxL || j <= maxR)
 
-if (i <= maxL && j <= maxR
+if (i <= maxL && j <= maxR)
 if (buff[i] <= buff[j])
 array[k] = buff[i], k++, i++;
 else
